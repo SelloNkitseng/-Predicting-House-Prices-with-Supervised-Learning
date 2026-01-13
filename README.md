@@ -23,12 +23,5 @@ pip install -r requirements.txt
 .\.venv\Scripts\python.exe "Predicting House Prices with Supervised Learning.py"
 ```
 
-Notes:
 
-- The script generates synthetic data and does not require external datasets.
-- To speed up runs for testing, edit the `n_houses` parameter in `generate_house_data()`.
-- `requirements.txt` contains the exact versions from the workspace virtual environment.
 
-If you'd like, I can also:
-- Save the trained best model to disk and add a small loader script.
-- Create a GitHub Actions workflow to run a quick sanity test on push.
